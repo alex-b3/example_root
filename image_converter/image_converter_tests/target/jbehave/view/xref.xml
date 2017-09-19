@@ -1,0 +1,31 @@
+<xref>
+  <whenMade>1505283252420</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative>In order to 
+As a user
+I want to perform an action
+</narrative>
+      <name>image_converter.story</name>
+      <path>image_converter.story</path>
+      <html>image_converter.html</html>
+      <meta></meta>
+      <scenarios>Scenario:scenario description
+Given getting image to convert with id 0
+When I am converting image to type jpg
+Then I am seeing image with type jpg
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1505283249847</started>
+      <duration>710</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>
