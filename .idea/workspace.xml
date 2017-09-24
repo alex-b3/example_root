@@ -1,7 +1,568 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dd268e0-cdd5-4e3c-8380-47ff5d2b40d3" name="Default" comment="" />
+    <list default="true" id="8dd268e0-cdd5-4e3c-8380-47ff5d2b40d3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_client/target/classes/com/imagecapture/models/ImageModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_client/target/image_capture_client-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_client/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_service/target/classes/com/imagecapture/Application.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_service/target/classes/com/imagecapture/controllers/ImageCaptureController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_service/target/classes/com/imagecapture/services/ImageCaptureService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_service/target/image_capture_service-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_service/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/failsafe-reports/TEST-com.imagecapture.steps.ApiTestSuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/failsafe-reports/com.imagecapture.steps.ApiTestSuite.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/failsafe-reports/failsafe-summary.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/image_capture_tests-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/AfterStories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/AfterStories.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/AfterStories.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/BeforeStories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/BeforeStories.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/BeforeStories.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/imagecapture.stories.convert_created_image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/imagecapture.stories.convert_created_image.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/imagecapture.stories.convert_created_image.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/imagecapture.stories.get_image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/imagecapture.stories.get_image.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/imagecapture.stories.get_image.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/imagecapture.stories.get_second_image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/imagecapture.stories.get_second_image.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/imagecapture.stories.get_second_image.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/AfterStories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/AfterStories.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/AfterStories.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/BeforeStories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/BeforeStories.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/BeforeStories.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/imagecapture.stories.convert_created_image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/imagecapture.stories.convert_created_image.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/imagecapture.stories.convert_created_image.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/imagecapture.stories.get_image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/imagecapture.stories.get_image.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/imagecapture.stories.get_image.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/imagecapture.stories.get_second_image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/imagecapture.stories.get_second_image.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/imagecapture.stories.get_second_image.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/reports.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/xref.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/jbehave/view/xref.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/5b963cda1011823ff9233dd660e28dad41159a55b714eea93966bf7571b5de4e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/5b963cda1011823ff9233dd660e28dad41159a55b714eea93966bf7571b5de4e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/5b963cda1011823ff9233dd660e28dad41159a55b714eea93966bf7571b5de4e.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/ae7d2345af11ffb80817bf861a7793593a909bf264c022359de570fd9294f2bf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/ae7d2345af11ffb80817bf861a7793593a909bf264c022359de570fd9294f2bf.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/ae7d2345af11ffb80817bf861a7793593a909bf264c022359de570fd9294f2bf.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/bootstrap/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/bootstrap/css/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/bootstrap/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/css/core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/css/link.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/css/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/images/Sorting icons.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/images/back_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/images/back_enabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/images/back_enabled_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/images/forward_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/images/forward_enabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/images/forward_enabled_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/images/sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/images/sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/images/sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/images/sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/images/sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/js/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/js/jquery.dataTables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/datatables/media/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/fec1eaa93f605d24e5e21b1025bef141afe847be1f7cf0a4734619f1deec5636.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/fec1eaa93f605d24e5e21b1025bef141afe847be1f7cf0a4734619f1deec5636.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/fec1eaa93f605d24e5e21b1025bef141afe847be1f7cf0a4734619f1deec5636.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/css/font-awesome-ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/css/font-awesome-ie7.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/font/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/font/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/font/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/font/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/font/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/less/extras.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/less/font-awesome-ie7.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/scss/_bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/scss/_extras.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/scss/font-awesome-ie7.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/bg_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/bg_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/bottomm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/cross.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/fail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/greenline.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/ico-q.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/icon-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/ignor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/links_menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/menu_f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/menu_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/menu_s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/middle-left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/middle-right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/middle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/pending.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/skip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/small-middle-left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/small-middle-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/small-middle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/tablebg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/tick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/top-left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/top-right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/top.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/topm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/traffic-green.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/traffic-in-progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/traffic-orange.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/traffic-red.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/traffic-yellow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/video.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/images/worker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/Extras/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/AreaChart.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/BarChart.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/ForceDirected.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/ForceDirected3D.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/HeatMap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/Hypertree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/Icicle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/Other.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/PieChart.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/RGraph.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/Spacetree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/Sunburst.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/TimeGraph.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/Treemap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/col1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/col2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/css/gradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/jit-yc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jit/jit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/jquery.jqplot.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/jquery.jqplot.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.BezierCurveRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.BezierCurveRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.barRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.barRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.blockRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.blockRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.bubbleRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.bubbleRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasAxisLabelRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasAxisLabelRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasAxisTickRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasAxisTickRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasOverlay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasOverlay.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasTextRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasTextRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.categoryAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.categoryAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.ciParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.ciParser.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.cursor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.dateAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.dateAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.donutRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.donutRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.dragable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.dragable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.enhancedLegendRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.enhancedLegendRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.funnelRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.funnelRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.highlighter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.highlighter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.json2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.json2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.logAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.logAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.mekkoAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.mekkoAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.mekkoRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.mekkoRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.meterGaugeRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.meterGaugeRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.ohlcRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.ohlcRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.pieRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.pieRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.pointLabels.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.pointLabels.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.pyramidAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.pyramidAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.pyramidGridRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.pyramidGridRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.pyramidRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.pyramidRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.trendline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqplot/plugins/jqplot.trendline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqtree/jqtree-circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqtree/jqtree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqtree/tree.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_flat_55_999999_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_flat_75_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_glass_45_0078ae_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_glass_55_f8da4e_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_glass_75_79c9ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_gloss-wave_75_2191c0_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-icons_0078ae_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-icons_056b93_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-icons_d8e7f3_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-icons_e0fdff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-icons_f5e175_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-icons_f7a50d_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/images/ui-icons_fcd113_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/css/start/jquery-ui-1.8.18.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/js/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/jqueryui/js/jquery-ui-1.8.18.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/nivo-slider/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/nivo-slider/jquery.nivo.slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/nivo-slider/jquery.nivo.slider.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/nivo-slider/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/nivo-slider/nivo-slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/nivo-slider/themes/default/arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/nivo-slider/themes/default/bullets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/nivo-slider/themes/default/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/nivo-slider/themes/default/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/nivo-slider/themes/default/roundarrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/scripts/dygraph-combined.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/scripts/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/scripts/imgpreview.full.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/site/thucydides/scripts/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/test-classes/com/imagecapture/consts/RequestConsts.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/test-classes/com/imagecapture/steps/ApiTestSuite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/test-classes/com/imagecapture/steps/GetImageSteps.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/test-classes/imagecapture/stories/convert_created_image.story" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/test-classes/imagecapture/stories/get_image.story" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/target/test-classes/imagecapture/stories/get_second_image.story" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_change_color/image_change_color.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_client/target/image_change_color_client-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_client/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_service/target/image_change_color_service-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_service/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_tests/target/image_change_color_tests-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_tests/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_tests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_client/target/classes/com/imageconverter/models/ImageModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_client/target/classes/com/imageconverter/models/ImageType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_client/target/image_converter_client-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_client/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_service/target/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_service/target/classes/com/imageconverter/Application.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_service/target/classes/com/imageconverter/controllers/ImageConverterController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_service/target/classes/com/imageconverter/services/ImageConverterService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_service/target/image_converter_service-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_service/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/image_converter_tests-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/AfterStories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/AfterStories.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/AfterStories.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/BeforeStories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/BeforeStories.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/BeforeStories.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/image_converter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/image_converter.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/image_converter.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/view/AfterStories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/view/AfterStories.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/view/AfterStories.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/view/BeforeStories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/view/BeforeStories.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/view/BeforeStories.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/view/image_converter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/view/image_converter.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/view/image_converter.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/view/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/view/reports.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/view/xref.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/jbehave/view/xref.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/bc396e776b842086fa39b457d40d912edb5096d13928315f6eb543a08a5eb090.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/bc396e776b842086fa39b457d40d912edb5096d13928315f6eb543a08a5eb090.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/bc396e776b842086fa39b457d40d912edb5096d13928315f6eb543a08a5eb090.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/bootstrap/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/bootstrap/css/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/bootstrap/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/css/core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/css/link.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/css/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/images/Sorting icons.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/images/back_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/images/back_enabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/images/back_enabled_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/images/forward_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/images/forward_enabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/images/forward_enabled_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/images/sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/images/sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/images/sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/images/sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/images/sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/js/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/js/jquery.dataTables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/datatables/media/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/css/font-awesome-ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/css/font-awesome-ie7.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/font/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/font/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/font/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/font/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/font/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/less/extras.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/less/font-awesome-ie7.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/scss/_bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/scss/_extras.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/scss/font-awesome-ie7.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/bg_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/bg_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/bottomm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/cross.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/fail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/greenline.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/ico-q.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/icon-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/ignor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/links_menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/menu_f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/menu_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/menu_s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/middle-left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/middle-right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/middle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/pending.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/skip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/small-middle-left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/small-middle-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/small-middle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/tablebg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/tick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/top-left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/top-right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/top.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/topm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/traffic-green.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/traffic-in-progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/traffic-orange.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/traffic-red.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/traffic-yellow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/video.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/images/worker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/Extras/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/AreaChart.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/BarChart.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/ForceDirected.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/ForceDirected3D.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/HeatMap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/Hypertree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/Icicle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/Other.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/PieChart.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/RGraph.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/Spacetree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/Sunburst.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/TimeGraph.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/Treemap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/col1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/col2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/css/gradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/jit-yc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jit/jit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/jquery.jqplot.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/jquery.jqplot.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.BezierCurveRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.BezierCurveRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.barRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.barRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.blockRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.blockRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.bubbleRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.bubbleRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasAxisLabelRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasAxisLabelRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasAxisTickRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasAxisTickRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasOverlay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasOverlay.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasTextRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.canvasTextRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.categoryAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.categoryAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.ciParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.ciParser.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.cursor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.dateAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.dateAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.donutRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.donutRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.dragable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.dragable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.enhancedLegendRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.enhancedLegendRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.funnelRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.funnelRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.highlighter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.highlighter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.json2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.json2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.logAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.logAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.mekkoAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.mekkoAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.mekkoRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.mekkoRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.meterGaugeRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.meterGaugeRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.ohlcRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.ohlcRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.pieRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.pieRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.pointLabels.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.pointLabels.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.pyramidAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.pyramidAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.pyramidGridRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.pyramidGridRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.pyramidRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.pyramidRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.trendline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqplot/plugins/jqplot.trendline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqtree/jqtree-circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqtree/jqtree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqtree/tree.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_flat_55_999999_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_flat_75_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_glass_45_0078ae_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_glass_55_f8da4e_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_glass_75_79c9ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_gloss-wave_75_2191c0_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-icons_0078ae_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-icons_056b93_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-icons_d8e7f3_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-icons_e0fdff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-icons_f5e175_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-icons_f7a50d_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/images/ui-icons_fcd113_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/css/start/jquery-ui-1.8.18.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/js/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/jqueryui/js/jquery-ui-1.8.18.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/nivo-slider/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/nivo-slider/jquery.nivo.slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/nivo-slider/jquery.nivo.slider.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/nivo-slider/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/nivo-slider/nivo-slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/nivo-slider/themes/default/arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/nivo-slider/themes/default/bullets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/nivo-slider/themes/default/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/nivo-slider/themes/default/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/nivo-slider/themes/default/roundarrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/scripts/dygraph-combined.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/scripts/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/scripts/imgpreview.full.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/site/thucydides/scripts/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/test-classes/com/imageconverter/consts/RestConst.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/test-classes/com/imageconverter/steps/ApiTestSuite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/test-classes/com/imageconverter/steps/ImageConverterSteps.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/target/test-classes/image_converter.story" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/image_capture/target/" />
@@ -45,7 +606,7 @@
         <entry file="file://$PROJECT_DIR$/image_capture/image_capture_tests/src/test/resources/imagecapture/stories/get_image.story">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -75,7 +636,7 @@
         <entry file="file://$PROJECT_DIR$/image_converter/image_converter_tests/src/test/resources/image_converter.story">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -84,11 +645,10 @@
       <file leaf-file-name="GetImageSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image_capture/image_capture_tests/src/test/java/com/imagecapture/steps/GetImageSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
+            <state relative-caret-position="945">
               <caret line="61" column="91" lean-forward="false" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2773#2781#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,7 +679,7 @@
       <file leaf-file-name="StepCreator.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/jbehave/jbehave-core/3.9.3/jbehave-core-3.9.3.jar!/org/jbehave/core/steps/StepCreator.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="12306">
               <caret line="653" column="55" lean-forward="false" selection-start-line="653" selection-start-column="55" selection-end-line="653" selection-end-column="55" />
               <folding />
             </state>
@@ -150,6 +710,9 @@
     <findStrings>
       <find>imageConverterService</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -247,8 +810,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -285,135 +846,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="image_converter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_converter_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_converter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_converter_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_converter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_converter_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imageconverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="steps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_converter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_converter_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imageconverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_converter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_converter_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="image_change_color" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -428,111 +861,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="image_capture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_capture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_capture_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_capture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_capture_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_capture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_capture_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_capture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_capture_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1220,6 +1555,7 @@
       <updated>1505121269744</updated>
       <workItem from="1505121274321" duration="7552000" />
       <workItem from="1505139891783" duration="15100000" />
+      <workItem from="1506261014001" duration="430000" />
     </task>
     <servers />
   </component>
@@ -1256,41 +1592,40 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22652000" />
+    <option name="totallyTimeSpent" value="23082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2418" height="1468" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12297182" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23677364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24893254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2095165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18958156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1340,9 +1675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1358,7 +1690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1366,7 +1697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2058">
           <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1384,7 +1714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1392,9 +1721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#621#622#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1419,7 +1745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,7 +1752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1459,7 +1783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1467,7 +1790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1475,7 +1797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1499,7 +1820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1507,7 +1827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1515,9 +1834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#621#622#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1525,7 +1841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1543,7 +1858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1551,7 +1865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1559,7 +1872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1583,7 +1895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1591,7 +1902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1599,7 +1909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1607,7 +1916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1023">
           <caret line="81" column="11" lean-forward="false" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1615,9 +1923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1625,7 +1930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1633,10 +1937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="e#166#167#0" expanded="false" />
-            <element signature="e#193#194#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1644,10 +1944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1655,12 +1951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-          <folding>
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1668,7 +1958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1676,9 +1965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1692,7 +1978,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jbehave/jbehave-core/3.9.3/jbehave-core-3.9.3.jar!/org/jbehave/core/steps/StepCreator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
+        <state relative-caret-position="12306">
           <caret line="653" column="55" lean-forward="false" selection-start-line="653" selection-start-column="55" selection-end-line="653" selection-end-column="55" />
           <folding />
         </state>
@@ -1719,7 +2005,7 @@
     <entry file="file://$PROJECT_DIR$/image_capture/image_capture_tests/src/test/resources/imagecapture/stories/get_image.story">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1734,11 +2020,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/image_capture/image_capture_tests/src/test/java/com/imagecapture/steps/GetImageSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
+        <state relative-caret-position="945">
           <caret line="61" column="91" lean-forward="false" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2773#2781#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1754,7 +2039,7 @@
     <entry file="file://$PROJECT_DIR$/image_converter/image_converter_tests/src/test/resources/image_converter.story">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
