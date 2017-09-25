@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/image_capture/image_capture.iml" filepath="$PROJECT_DIR$/image_capture/image_capture.iml" />
+      <module fileurl="file://C:\Users\alex.bichovsky\IdeaProjects\poc_root\image_capture\image_capture.iml" filepath="C:\Users\alex.bichovsky\IdeaProjects\poc_root\image_capture\image_capture.iml" />
       <module fileurl="file://$PROJECT_DIR$/image_capture/image_capture_client/image_capture_client.iml" filepath="$PROJECT_DIR$/image_capture/image_capture_client/image_capture_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/image_capture/image_capture_service/image_capture_service.iml" filepath="$PROJECT_DIR$/image_capture/image_capture_service/image_capture_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/image_capture/image_capture_tests/image_capture_tests.iml" filepath="$PROJECT_DIR$/image_capture/image_capture_tests/image_capture_tests.iml" />
-      <module fileurl="file://$PROJECT_DIR$/image_change_color/image_change_color.iml" filepath="$PROJECT_DIR$/image_change_color/image_change_color.iml" />
+      <module fileurl="file://C:\Users\alex.bichovsky\IdeaProjects\poc_root\image_change_color\image_change_color.iml" filepath="C:\Users\alex.bichovsky\IdeaProjects\poc_root\image_change_color\image_change_color.iml" />
       <module fileurl="file://$PROJECT_DIR$/image_change_color/image_change_color_client/image_change_color_client.iml" filepath="$PROJECT_DIR$/image_change_color/image_change_color_client/image_change_color_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/image_change_color/image_change_color_service/image_change_color_service.iml" filepath="$PROJECT_DIR$/image_change_color/image_change_color_service/image_change_color_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/image_change_color/image_change_color_tests/image_change_color_tests.iml" filepath="$PROJECT_DIR$/image_change_color/image_change_color_tests/image_change_color_tests.iml" />
-      <module fileurl="file://$PROJECT_DIR$/image_converter/image_converter.iml" filepath="$PROJECT_DIR$/image_converter/image_converter.iml" />
+      <module fileurl="file://C:\Users\alex.bichovsky\IdeaProjects\poc_root\image_converter\image_converter.iml" filepath="C:\Users\alex.bichovsky\IdeaProjects\poc_root\image_converter\image_converter.iml" />
       <module fileurl="file://$PROJECT_DIR$/image_converter/image_converter_client/image_converter_client.iml" filepath="$PROJECT_DIR$/image_converter/image_converter_client/image_converter_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/image_converter/image_converter_service/image_converter_service.iml" filepath="$PROJECT_DIR$/image_converter/image_converter_service/image_converter_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/image_converter/image_converter_tests/image_converter_tests.iml" filepath="$PROJECT_DIR$/image_converter/image_converter_tests/image_converter_tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/poc_root.iml" filepath="$PROJECT_DIR$/poc_root.iml" />
+      <module fileurl="file://C:\Users\alex.bichovsky\IdeaProjects\poc_root\poc_root.iml" filepath="C:\Users\alex.bichovsky\IdeaProjects\poc_root\poc_root.iml" />
     </modules>
   </component>
 </project>

@@ -10,6 +10,8 @@
       <set>
         <option value="$PROJECT_DIR$/image_capture/image_change_color/pom.xml" />
         <option value="$PROJECT_DIR$/image_capture/pom.xml" />
+        <option value="$PROJECT_DIR$/image_change_color/pom.xml" />
+        <option value="$PROJECT_DIR$/image_converter/pom.xml" />
       </set>
     </option>
   </component>
