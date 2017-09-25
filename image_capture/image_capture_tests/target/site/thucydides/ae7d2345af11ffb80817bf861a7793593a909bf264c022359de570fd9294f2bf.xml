@@ -1,0 +1,19 @@
+<acceptance-test-run title="scenario description" name="scenario description" steps="3" successful="1" failures="0" errors="1" skipped="1" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="1047" timestamp="2017-09-25T09:27:45.091+02:00">
+  <user-story id="convert_created_image" name="Convert created image" path="imagecapture/stories/convert_created_image.story"/>
+  <tags>
+    <tag name="Convert created image" type="story"/>
+    <tag name="Stories/Convert created image" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="15">
+    <description>Given Existing Image in DB with name {first} and source url {https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png}</description>
+  </test-step>
+  <test-step result="ERROR" duration="1014">
+    <description>When I am sending image with name ｟first｠ to convert to type ｟jpg｠</description>
+    <error>I/O error on POST request for &quot;http://localhost:8081/convert-image&quot;: Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect</error>
+    <exception>org.springframework.web.client.ResourceAccessException:I/O error on POST request for &quot;http://localhost:8081/convert-image&quot;: Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect&#xd;
+[org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:647), org.springframework.web.client.RestTemplate.execute(RestTemplate.java:594), org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:394), com.imagecapture.steps.GetImageSteps.convertImage(GetImageSteps.java:62)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Then I am seeing image with type {jpg}</description>
+  </test-step>
+</acceptance-test-run>

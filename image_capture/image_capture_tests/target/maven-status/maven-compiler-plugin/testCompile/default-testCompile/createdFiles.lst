@@ -1,0 +1,3 @@
+com\imagecapture\steps\GetImageSteps.class
+com\imagecapture\consts\RequestConsts.class
+com\imagecapture\steps\ApiTestSuite.class
