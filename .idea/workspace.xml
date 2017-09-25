@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dd268e0-cdd5-4e3c-8380-47ff5d2b40d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/poc_root.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0_rc3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_capture/image_capture_client/image_capture_client.iml" afterPath="$PROJECT_DIR$/image_capture/image_capture_client/image_capture_client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_capture/image_capture_service/image_capture_service.iml" afterPath="$PROJECT_DIR$/image_capture/image_capture_service/image_capture_service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_capture/image_capture_tests/image_capture_tests.iml" afterPath="$PROJECT_DIR$/image_capture/image_capture_tests/image_capture_tests.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_client/image_change_color_client.iml" afterPath="$PROJECT_DIR$/image_change_color/image_change_color_client/image_change_color_client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_service/image_change_color_service.iml" afterPath="$PROJECT_DIR$/image_change_color/image_change_color_service/image_change_color_service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_change_color/image_change_color_tests/image_change_color_tests.iml" afterPath="$PROJECT_DIR$/image_change_color/image_change_color_tests/image_change_color_tests.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_converter/image_converter_client/image_converter_client.iml" afterPath="$PROJECT_DIR$/image_converter/image_converter_client/image_converter_client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_converter/image_converter_service/image_converter_service.iml" afterPath="$PROJECT_DIR$/image_converter/image_converter_service/image_converter_service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_converter/image_converter_tests/image_converter_tests.iml" afterPath="$PROJECT_DIR$/image_converter/image_converter_tests/image_converter_tests.iml" />
-    </list>
+    <list default="true" id="8dd268e0-cdd5-4e3c-8380-47ff5d2b40d3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/image_capture/target/" />
@@ -251,20 +235,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poc_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -980,7 +950,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25607000" />
+    <option name="totallyTimeSpent" value="25670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2418" height="1468" extended-state="6" />
