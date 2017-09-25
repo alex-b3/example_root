@@ -1,0 +1,72 @@
+<xref>
+  <whenMade>1506328102700</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative>In order to 
+As a user
+I want to perform an action
+</narrative>
+      <name>get_second_image.story</name>
+      <path>imagecapture/stories/get_second_image.story</path>
+      <html>imagecapture.stories.get_second_image.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Get second Image
+Given Existing Image in DB with name second and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png
+When I am getting image with name second
+Then I am seeing image with name second
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1506328098529</started>
+      <duration>721</duration>
+    </story>
+    <story>
+      <description></description>
+      <narrative>In order to 
+As a user
+I want to perform an action
+</narrative>
+      <name>convert_created_image.story</name>
+      <path>imagecapture/stories/convert_created_image.story</path>
+      <html>imagecapture.stories.convert_created_image.html</html>
+      <meta></meta>
+      <scenarios>Scenario:scenario description
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1506328099264</started>
+      <duration>13</duration>
+    </story>
+    <story>
+      <description></description>
+      <narrative>In order to 
+As a user
+I want to perform an action
+</narrative>
+      <name>get_image.story</name>
+      <path>imagecapture/stories/get_image.story</path>
+      <html>imagecapture.stories.get_image.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Get first Image
+Given Existing Image in DB with name first and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png
+When I am getting image with name first
+Then I am seeing image with name first
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1506328099294</started>
+      <duration>32</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

@@ -1,0 +1,15 @@
+<acceptance-test-run title="scenario description" name="scenario description" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="469" timestamp="2017-09-25T10:28:30.585+02:00">
+  <user-story id="image_converter" name="Image converter" path="image_converter.story"/>
+  <tags>
+    <tag name="Image converter" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="410">
+    <description>Given getting image to convert with id {0}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2">
+    <description>When I am converting image to type {jpg}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3">
+    <description>Then I am seeing image with type {jpg}</description>
+  </test-step>
+</acceptance-test-run>

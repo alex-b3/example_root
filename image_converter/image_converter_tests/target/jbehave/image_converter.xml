@@ -1,0 +1,12 @@
+<story path="image_converter.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">perform an action</asA>
+  <iWantTo keyword="So that">I can achieve a business goal</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="scenario description">
+<step outcome="successful">Given getting image to convert with id <parameter>0</parameter></step>
+<step outcome="successful">When I am converting image to type <parameter>jpg</parameter></step>
+<step outcome="successful">Then I am seeing image with type <parameter>jpg</parameter></step>
+</scenario>
+</story>

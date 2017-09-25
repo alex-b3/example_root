@@ -1,0 +1,9 @@
+<story path="imagecapture/stories/convert_created_image.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">perform an action</asA>
+  <iWantTo keyword="So that">I can achieve a business goal</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="scenario description">
+</scenario>
+</story>

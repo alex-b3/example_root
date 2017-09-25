@@ -1,0 +1,48 @@
+{"xref": {
+  "whenMade": 1506328102700,
+  "createdBy": "JBehave",
+  "metaFilter": "-ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "",
+      "narrative": "In order to \u000aAs a user\u000aI want to perform an action\u000a",
+      "name": "get_second_image.story",
+      "path": "imagecapture/stories/get_second_image.story",
+      "html": "imagecapture.stories.get_second_image.html",
+      "meta": "",
+      "scenarios": "Scenario:Get second Image\u000aGiven Existing Image in DB with name second and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png\u000aWhen I am getting image with name second\u000aThen I am seeing image with name second\u000a\u000a\u000a",
+      "passed": true,
+      "pending": false,
+      "started": 1506328098529,
+      "duration": 721
+    },
+    {
+      "description": "",
+      "narrative": "In order to \u000aAs a user\u000aI want to perform an action\u000a",
+      "name": "convert_created_image.story",
+      "path": "imagecapture/stories/convert_created_image.story",
+      "html": "imagecapture.stories.convert_created_image.html",
+      "meta": "",
+      "scenarios": "Scenario:scenario description\u000a\u000a\u000a",
+      "passed": true,
+      "pending": false,
+      "started": 1506328099264,
+      "duration": 13
+    },
+    {
+      "description": "",
+      "narrative": "In order to \u000aAs a user\u000aI want to perform an action\u000a",
+      "name": "get_image.story",
+      "path": "imagecapture/stories/get_image.story",
+      "html": "imagecapture.stories.get_image.html",
+      "meta": "",
+      "scenarios": "Scenario:Get first Image\u000aGiven Existing Image in DB with name first and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png\u000aWhen I am getting image with name first\u000aThen I am seeing image with name first\u000a\u000a\u000a",
+      "passed": true,
+      "pending": false,
+      "started": 1506328099294,
+      "duration": 32
+    }
+  ],
+  "stepMatches": []
+}}

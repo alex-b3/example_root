@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.imageconverter.steps.ApiTestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.601 sec - in com.imageconverter.steps.ApiTestSuite

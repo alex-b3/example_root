@@ -1,0 +1,22 @@
+{"xref": {
+  "whenMade": 1506328114195,
+  "createdBy": "JBehave",
+  "metaFilter": "-ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "",
+      "narrative": "In order to \u000aAs a user\u000aI want to perform an action\u000a",
+      "name": "image_converter.story",
+      "path": "image_converter.story",
+      "html": "image_converter.html",
+      "meta": "",
+      "scenarios": "Scenario:scenario description\u000aGiven getting image to convert with id 0\u000aWhen I am converting image to type jpg\u000aThen I am seeing image with type jpg\u000a\u000a\u000a",
+      "passed": true,
+      "pending": false,
+      "started": 1506328110536,
+      "duration": 533
+    }
+  ],
+  "stepMatches": []
+}}
