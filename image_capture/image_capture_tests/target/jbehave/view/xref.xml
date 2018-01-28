@@ -1,5 +1,5 @@
 <xref>
-  <whenMade>1506328102700</whenMade>
+  <whenMade>1517133382400</whenMade>
   <createdBy>JBehave</createdBy>
   <metaFilter>-ignore</metaFilter>
   <meta/>
@@ -23,8 +23,8 @@ Then I am seeing image with name second
 </scenarios>
       <passed>true</passed>
       <pending>false</pending>
-      <started>1506328098529</started>
-      <duration>721</duration>
+      <started>1517133376994</started>
+      <duration>858</duration>
     </story>
     <story>
       <description></description>
@@ -37,13 +37,16 @@ I want to perform an action
       <html>imagecapture.stories.convert_created_image.html</html>
       <meta></meta>
       <scenarios>Scenario:scenario description
+Given Existing Image in DB with name first and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png
+When I am sending image with name first to convert to type jpg
+Then I am seeing image with type jpg
 
 
 </scenarios>
       <passed>true</passed>
       <pending>false</pending>
-      <started>1506328099264</started>
-      <duration>13</duration>
+      <started>1517133377868</started>
+      <duration>299</duration>
     </story>
     <story>
       <description></description>
@@ -64,8 +67,8 @@ Then I am seeing image with name first
 </scenarios>
       <passed>true</passed>
       <pending>false</pending>
-      <started>1506328099294</started>
-      <duration>32</duration>
+      <started>1517133378183</started>
+      <duration>52</duration>
     </story>
   </stories>
   <stepMatches/>

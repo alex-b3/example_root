@@ -1,5 +1,5 @@
 {"xref": {
-  "whenMade": 1506328114195,
+  "whenMade": 1517133287296,
   "createdBy": "JBehave",
   "metaFilter": "-ignore",
   "meta": [],
@@ -12,10 +12,10 @@
       "html": "image_converter.html",
       "meta": "",
       "scenarios": "Scenario:scenario description\u000aGiven getting image to convert with id 0\u000aWhen I am converting image to type jpg\u000aThen I am seeing image with type jpg\u000a\u000a\u000a",
-      "passed": true,
+      "passed": false,
       "pending": false,
-      "started": 1506328110536,
-      "duration": 533
+      "started": 1517133282431,
+      "duration": 1574
     }
   ],
   "stepMatches": []

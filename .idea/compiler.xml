@@ -18,6 +18,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="example_root" target="1.5" />
       <module name="image_capture" target="1.5" />
       <module name="image_capture_client" target="1.5" />
       <module name="image_capture_service" target="1.8" />

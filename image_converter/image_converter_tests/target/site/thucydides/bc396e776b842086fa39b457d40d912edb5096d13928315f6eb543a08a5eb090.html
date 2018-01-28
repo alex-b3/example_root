@@ -43,7 +43,7 @@
         <li><a href="index.html" class="current">Overall Test Results</a></li>
         <li><a href="capabilities.html" >Requirements</a></li>
     </ul>
-    <span class="date-and-time">Report generated 25-09-2017 10:28</span>
+    <span class="date-and-time">Report generated 28-01-2018 11:54</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -52,14 +52,14 @@
     <div class="titlebar">
         <div class="story-title">
             <table width="1005">
-                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/>
+                <td width="50"><img class="story-outcome-icon" src="images/cross.png" width="25" height="25"/>
                 </td>
                 <td width="%"><span class="test-case-title"><span
-                        class="success-color">scenario description<span
+                        class="error-color">scenario description<span
                         class="related-issue-title"></span></span></span>
                 </td>
                 <td width="100"><span class="test-case-duration"><span
-                        class="greentext">0.47s</span></span>
+                        class="greentext">1.48s</span></span>
                 </td>
                 </tr>
                 <tr>
@@ -107,46 +107,52 @@
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
                         <td width="60" class="step-icon">
                             <a name="0"/>
                                 <img style="margin-left: 20px; margin-right: 5px;"
-                                     src="images/success.png" class="top-level-icon"/>
+                                     src="images/cross.png" class="top-level-icon"/>
                         </td>
                         <td>
                             <div class="step-description">
-                                <span class="top-level-step">Given getting image to convert with id {0}</span>
+                                <span class="top-level-step">Given getting image to convert with id ｟0｠</span>
                             </div>
                         </td>
-                        <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.41s</span></td>
+                        <td width="100"><span class="top-level-step">ERROR</span></td>
+                        <td width="100"><span class="top-level-step">1.43s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                        <tr class="test-ERROR">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="4">
+                                <span class="error-message" title="I/O error on GET request for &quot;http://localhost:8080/get-by-id&quot;: Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect"><pre>I/O error on GET request for 'http://localhost:8080/get-by-id': Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect</pre></span>
+                            </td>
+                        </tr>
+                    <tr class="test-SKIPPED">
                         <td width="60" class="step-icon">
                             <a name="1"/>
                                 <img style="margin-left: 20px; margin-right: 5px;"
-                                     src="images/success.png" class="top-level-icon"/>
+                                     src="images/ignor.png" class="top-level-icon"/>
                         </td>
                         <td>
                             <div class="step-description">
                                 <span class="top-level-step">When I am converting image to type {jpg}</span>
                             </div>
                         </td>
-                        <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">SKIPPED</span></td>
                         <td width="100"><span class="top-level-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
                         <td width="60" class="step-icon">
                             <a name="2"/>
                                 <img style="margin-left: 20px; margin-right: 5px;"
-                                     src="images/success.png" class="top-level-icon"/>
+                                     src="images/ignor.png" class="top-level-icon"/>
                         </td>
                         <td>
                             <div class="step-description">
                                 <span class="top-level-step">Then I am seeing image with type {jpg}</span>
                             </div>
                         </td>
-                        <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">SKIPPED</span></td>
                         <td width="100"><span class="top-level-step">0s</span></td>
                     </tr>
             </table>

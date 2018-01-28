@@ -1,5 +1,5 @@
 <xref>
-  <whenMade>1506328114195</whenMade>
+  <whenMade>1517133287296</whenMade>
   <createdBy>JBehave</createdBy>
   <metaFilter>-ignore</metaFilter>
   <meta/>
@@ -21,10 +21,10 @@ Then I am seeing image with type jpg
 
 
 </scenarios>
-      <passed>true</passed>
+      <passed>false</passed>
       <pending>false</pending>
-      <started>1506328110536</started>
-      <duration>533</duration>
+      <started>1517133282431</started>
+      <duration>1574</duration>
     </story>
   </stories>
   <stepMatches/>

@@ -5,8 +5,17 @@
   <iWantTo keyword="So that">I can achieve a business goal</iWantTo>
 </narrative>
 <scenario keyword="Scenario:" title="scenario description">
-<step outcome="successful">Given getting image to convert with id <parameter>0</parameter></step>
-<step outcome="successful">When I am converting image to type <parameter>jpg</parameter></step>
-<step outcome="successful">Then I am seeing image with type <parameter>jpg</parameter></step>
+<step outcome="failed" keyword="FAILED">Given getting image to convert with id <parameter>0</parameter><failure>org.springframework.web.client.ResourceAccessException: I/O error on GET request for &quot;http://localhost:8080/get-by-id&quot;: Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When I am converting image to type <parameter>jpg</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then I am seeing image with type <parameter>jpg</parameter></step>
+<failure>org.springframework.web.client.ResourceAccessException: I/O error on GET request for &quot;http://localhost:8080/get-by-id&quot;: Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:647)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:594)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:301)
+	at com.imageconverter.steps.ImageConverterSteps.gettingImageToConvert(ImageConverterSteps.java:25)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:595)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:535)
+...</failure>
 </scenario>
 </story>

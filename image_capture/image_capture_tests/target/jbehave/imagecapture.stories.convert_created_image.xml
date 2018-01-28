@@ -5,5 +5,8 @@
   <iWantTo keyword="So that">I can achieve a business goal</iWantTo>
 </narrative>
 <scenario keyword="Scenario:" title="scenario description">
+<step outcome="successful">Given Existing Image in DB with name <parameter>first</parameter> and source url <parameter>https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png</parameter></step>
+<step outcome="successful">When I am sending image with name <parameter>first</parameter> to convert to type <parameter>jpg</parameter></step>
+<step outcome="successful">Then I am seeing image with type <parameter>jpg</parameter></step>
 </scenario>
 </story>

@@ -23,7 +23,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:4.3.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
-    <orderEntry type="module" module-name="image_capture_client" />
+    <orderEntry type="library" name="Maven: poc_root:image_capture_client:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:1.5.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:1.5.1.RELEASE" level="project" />
