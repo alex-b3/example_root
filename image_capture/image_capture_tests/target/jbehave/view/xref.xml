@@ -1,5 +1,9 @@
 <xref>
+<<<<<<< HEAD
   <whenMade>1506324470103</whenMade>
+=======
+  <whenMade>1517133382400</whenMade>
+>>>>>>> dev
   <createdBy>JBehave</createdBy>
   <metaFilter>-ignore</metaFilter>
   <meta/>
@@ -23,8 +27,13 @@ Then I am seeing image with name second
 </scenarios>
       <passed>true</passed>
       <pending>false</pending>
+<<<<<<< HEAD
       <started>1506324464307</started>
       <duration>760</duration>
+=======
+      <started>1517133376994</started>
+      <duration>858</duration>
+>>>>>>> dev
     </story>
     <story>
       <description></description>
@@ -43,10 +52,17 @@ Then I am seeing image with type jpg
 
 
 </scenarios>
+<<<<<<< HEAD
       <passed>false</passed>
       <pending>false</pending>
       <started>1506324465086</started>
       <duration>1054</duration>
+=======
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1517133377868</started>
+      <duration>299</duration>
+>>>>>>> dev
     </story>
     <story>
       <description></description>
@@ -67,8 +83,13 @@ Then I am seeing image with name first
 </scenarios>
       <passed>true</passed>
       <pending>false</pending>
+<<<<<<< HEAD
       <started>1506324466162</started>
       <duration>27</duration>
+=======
+      <started>1517133378183</started>
+      <duration>52</duration>
+>>>>>>> dev
     </story>
   </stories>
   <stepMatches/>

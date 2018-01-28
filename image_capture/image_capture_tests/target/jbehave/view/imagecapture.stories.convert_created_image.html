@@ -17,6 +17,7 @@
 <div class="scenario">
 <h2>Scenario: scenario description</h2>
 <div class="step successful">Given Existing Image in DB with name <span class="step parameter">first</span> and source url <span class="step parameter">https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png</span></div>
+<<<<<<< HEAD
 <div class="step failed">When I am sending image with name <span class="step parameter">first</span> to convert to type <span class="step parameter">jpg</span> <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.springframework.web.client.ResourceAccessException: I/O error on POST request for &quot;http://localhost:8081/convert-image&quot;: Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect</span></div>
 <div class="step notPerformed">Then I am seeing image with type <span class="step parameter">jpg</span> <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
 <pre class="failure">org.springframework.web.client.ResourceAccessException: I/O error on POST request for &quot;http://localhost:8081/convert-image&quot;: Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
@@ -28,6 +29,10 @@
 	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:595)
 	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:535)
 ...</pre>
+=======
+<div class="step successful">When I am sending image with name <span class="step parameter">first</span> to convert to type <span class="step parameter">jpg</span></div>
+<div class="step successful">Then I am seeing image with type <span class="step parameter">jpg</span></div>
+>>>>>>> dev
 </div>
 </div>
 

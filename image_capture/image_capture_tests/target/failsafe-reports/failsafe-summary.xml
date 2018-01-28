@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <failsafe-summary result="255" timeout="false">
   <completed>15</completed>
   <errors>1</errors>
   <failures>0</failures>
   <skipped>1</skipped>
+=======
+<failsafe-summary timeout="false">
+  <completed>17</completed>
+  <errors>0</errors>
+  <failures>0</failures>
+  <skipped>0</skipped>
+>>>>>>> dev
   <failureMessage/>
 </failsafe-summary>

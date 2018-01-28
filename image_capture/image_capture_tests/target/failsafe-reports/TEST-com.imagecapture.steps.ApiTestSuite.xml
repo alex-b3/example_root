@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite name="com.imagecapture.steps.ApiTestSuite" time="1.773" tests="15" errors="1" skipped="1" failures="0">
+=======
+<testsuite name="com.imagecapture.steps.ApiTestSuite" time="1.195" tests="17" errors="0" skipped="0" failures="0">
+>>>>>>> dev
   <properties>
     <property name="idea.version" value="2017.1.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\bin"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
+<<<<<<< HEAD
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\alex.bichovsky\IdeaProjects\poc_root"/>
+=======
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\alex.bichovsky\IdeaProjects\example_root\image_capture"/>
+>>>>>>> dev
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,8 +25,13 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<<<<<<< HEAD
     <property name="user.dir" value="C:\Users\alex.bichovsky\IdeaProjects\poc_root"/>
     <property name="PID" value="12488"/>
+=======
+    <property name="user.dir" value="C:\Users\alex.bichovsky\IdeaProjects\example_root\image_capture"/>
+    <property name="PID" value="22500"/>
+>>>>>>> dev
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\endorsed"/>
@@ -31,7 +44,11 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.2\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
+<<<<<<< HEAD
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Program Files\Git\cmd;C:\Users\alex.bichovsky\apache-maven-3.3.9\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\HashiCorp\Vagrant\bin;C:\Go\bin;C:\SystemTest\Ruby22\bin;C:\Ruby22\bin;C:\Users\alex.bichovsky\AppData\Roaming\npm;C:\Program Files\Git\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Go\bin;C:\Program Files\Docker Toolbox;."/>
+=======
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jre1.8.0_111\bin;C:\Program Files\Git\cmd;C:\Users\alex.bichovsky\apache-maven-3.3.9\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\HashiCorp\Vagrant\bin;C:\Go\bin;C:\SystemTest\Ruby22\bin;C:\Ruby22\bin;C:\Users\alex.bichovsky\AppData\Roaming\npm;C:\Program Files\Git\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Go\bin;C:\Applications\Atlassian\atlassian-plugin-sdk-6.2.15\bin;C:\groovy-2.4.13\bin;."/>
+>>>>>>> dev
     <property name="spring.beaninfo.ignore" value="true"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -43,7 +60,11 @@
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
+<<<<<<< HEAD
     <property name="catalina.home" value="C:\Users\alex.bichovsky\AppData\Local\Temp\tomcat.4453632306505595542.8080"/>
+=======
+    <property name="catalina.home" value="C:\Users\alex.bichovsky\AppData\Local\Temp\tomcat.681767849859227534.8080"/>
+>>>>>>> dev
     <property name="user.name" value="alex.bichovsky"/>
     <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.2\lib\idea_rt.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
@@ -60,7 +81,11 @@
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.awt.headless" value="true"/>
     <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.2\plugins\maven\lib\maven3"/>
+<<<<<<< HEAD
     <property name="catalina.base" value="C:\Users\alex.bichovsky\AppData\Local\Temp\tomcat.4453632306505595542.8080"/>
+=======
+    <property name="catalina.base" value="C:\Users\alex.bichovsky\AppData\Local\Temp\tomcat.681767849859227534.8080"/>
+>>>>>>> dev
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -68,6 +93,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
+<<<<<<< HEAD
   <testcase name="BeforeStories" classname="java.lang.Object" time="0.018"/>
   <testcase name="Given Existing Image in DB with name second and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png" classname="com.imagecapture.steps.GetImageSteps" time="0.606"/>
   <testcase name="When I am getting image with name second" classname="com.imagecapture.steps.GetImageSteps" time="0.023"/>
@@ -119,4 +145,23 @@
   <testcase name="Scenario: Get first Image" classname="Scenario: Get first Image" time="0.004"/>
   <testcase name="get_image.story" classname="get_image.story" time="0.013"/>
   <testcase name="AfterStories" classname="java.lang.Object" time="0.008"/>
+=======
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.013"/>
+  <testcase name="Given Existing Image in DB with name second and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png" classname="com.imagecapture.steps.GetImageSteps" time="0.696"/>
+  <testcase name="When I am getting image with name second" classname="com.imagecapture.steps.GetImageSteps" time="0.023"/>
+  <testcase name="Then I am seeing image with name second" classname="com.imagecapture.steps.GetImageSteps" time="0.005"/>
+  <testcase name="Scenario: Get second Image" classname="Scenario: Get second Image" time="0.016"/>
+  <testcase name="get_second_image.story" classname="get_second_image.story" time="0.044"/>
+  <testcase name="Given Existing Image in DB with name first and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png" classname="com.imagecapture.steps.GetImageSteps" time="0.021"/>
+  <testcase name="When I am sending image with name first to convert to type jpg" classname="com.imagecapture.steps.GetImageSteps" time="0.246"/>
+  <testcase name="Then I am seeing image with type jpg" classname="com.imagecapture.steps.GetImageSteps" time="0"/>
+  <testcase name="Scenario: scenario description" classname="Scenario: scenario description" time="0.016"/>
+  <testcase name="convert_created_image.story" classname="convert_created_image.story" time="0.016"/>
+  <testcase name="Given Existing Image in DB with name first and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png​" classname="com.imagecapture.steps.GetImageSteps" time="0.016"/>
+  <testcase name="When I am getting image with name first" classname="com.imagecapture.steps.GetImageSteps" time="0"/>
+  <testcase name="Then I am seeing image with name first" classname="com.imagecapture.steps.GetImageSteps" time="0.016"/>
+  <testcase name="Scenario: Get first Image" classname="Scenario: Get first Image" time="0.021"/>
+  <testcase name="get_image.story" classname="get_image.story" time="0.03"/>
+  <testcase name="AfterStories" classname="java.lang.Object" time="0.016"/>
+>>>>>>> dev
 </testsuite>

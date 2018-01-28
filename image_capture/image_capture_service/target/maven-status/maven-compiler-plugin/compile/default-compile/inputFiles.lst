@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 C:\Users\alex.bichovsky\IdeaProjects\poc_root\image_capture\image_capture_service\src\main\java\com\imagecapture\services\ImageCaptureService.java
 C:\Users\alex.bichovsky\IdeaProjects\poc_root\image_capture\image_capture_service\src\main\java\com\imagecapture\Application.java
 C:\Users\alex.bichovsky\IdeaProjects\poc_root\image_capture\image_capture_service\src\main\java\com\imagecapture\controllers\ImageCaptureController.java
+=======
+C:\Users\alex.bichovsky\IdeaProjects\example_root\image_capture\image_capture_service\src\main\java\com\imagecapture\controllers\ImageCaptureController.java
+C:\Users\alex.bichovsky\IdeaProjects\example_root\image_capture\image_capture_service\src\main\java\com\imagecapture\Application.java
+C:\Users\alex.bichovsky\IdeaProjects\example_root\image_capture\image_capture_service\src\main\java\com\imagecapture\services\ImageCaptureService.java
+>>>>>>> dev

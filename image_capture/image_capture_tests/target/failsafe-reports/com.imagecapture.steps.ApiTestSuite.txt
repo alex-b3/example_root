@@ -1,6 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.imagecapture.steps.ApiTestSuite
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 15, Failures: 0, Errors: 1, Skipped: 1, Time elapsed: 6.76 sec <<< FAILURE! - in com.imagecapture.steps.ApiTestSuite
 When I am sending image with name first to convert to type jpg(com.imagecapture.steps.GetImageSteps)  Time elapsed: 1.012 sec  <<< ERROR!
 org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8081/convert-image": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
@@ -31,3 +32,6 @@ org.springframework.web.client.ResourceAccessException: I/O error on POST reques
 	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:394)
 	at com.imagecapture.steps.GetImageSteps.convertImage(GetImageSteps.java:62)
 
+=======
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.465 sec - in com.imagecapture.steps.ApiTestSuite
+>>>>>>> dev

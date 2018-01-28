@@ -6,6 +6,7 @@
 </narrative>
 <scenario keyword="Scenario:" title="scenario description">
 <step outcome="successful">Given Existing Image in DB with name <parameter>first</parameter> and source url <parameter>https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png</parameter></step>
+<<<<<<< HEAD
 <step outcome="failed" keyword="FAILED">When I am sending image with name <parameter>first</parameter> to convert to type <parameter>jpg</parameter><failure>org.springframework.web.client.ResourceAccessException: I/O error on POST request for &quot;http://localhost:8081/convert-image&quot;: Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect</failure></step>
 <step outcome="notPerformed" keyword="NOT PERFORMED">Then I am seeing image with type <parameter>jpg</parameter></step>
 <failure>org.springframework.web.client.ResourceAccessException: I/O error on POST request for &quot;http://localhost:8081/convert-image&quot;: Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
@@ -17,5 +18,9 @@
 	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:595)
 	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:535)
 ...</failure>
+=======
+<step outcome="successful">When I am sending image with name <parameter>first</parameter> to convert to type <parameter>jpg</parameter></step>
+<step outcome="successful">Then I am seeing image with type <parameter>jpg</parameter></step>
+>>>>>>> dev
 </scenario>
 </story>
