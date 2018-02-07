@@ -31,6 +31,7 @@ public class ImageConverterService {
         StringBuilder builder = new StringBuilder(image.getUrl());
         Integer dotPosition = image.getUrl().lastIndexOf(".");
         builder.replace(dotPosition + 1, image.getUrl().length(), newType);
+//        builder.replace(dotPosition + 1, image.getUrl().length(), "jpeg");
         image.setUrl(builder.toString());
         image.setImageType(ImageType.valueOf(newType.toUpperCase()));
         return image;

@@ -7,6 +7,13 @@
 <scenario keyword="Scenario:" title="scenario description">
 <step outcome="successful">Given Existing Image in DB with name <parameter>first</parameter> and source url <parameter>https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png</parameter></step>
 <step outcome="successful">When I am sending image with name <parameter>first</parameter> to convert to type <parameter>jpg</parameter></step>
-<step outcome="successful">Then I am seeing image with type <parameter>jpg</parameter></step>
+<step outcome="failed" keyword="FAILED">Then I am seeing image with type <parameter>jpg</parameter><failure>org.junit.ComparisonFailure: Expected typejpg but got jpeg expected:&lt;jp[]g&gt; but was:&lt;jp[e]g&gt;</failure></step>
+<failure>org.junit.ComparisonFailure: Expected typejpg but got jpeg expected:&lt;jp[]g&gt; but was:&lt;jp[e]g&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at com.imagecapture.steps.GetImageSteps.checkingTypeOfTheImage(GetImageSteps.java:69)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:595)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:535)
+...</failure>
 </scenario>
 </story>

@@ -1,5 +1,5 @@
 {"xref": {
-  "whenMade": 1517133382400,
+  "whenMade": 1518017644681,
   "createdBy": "JBehave",
   "metaFilter": "-ignore",
   "meta": [],
@@ -14,8 +14,8 @@
       "scenarios": "Scenario:Get second Image\u000aGiven Existing Image in DB with name second and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png\u000aWhen I am getting image with name second\u000aThen I am seeing image with name second\u000a\u000a\u000a",
       "passed": true,
       "pending": false,
-      "started": 1517133376994,
-      "duration": 858
+      "started": 1518017639750,
+      "duration": 768
     },
     {
       "description": "",
@@ -25,10 +25,10 @@
       "html": "imagecapture.stories.convert_created_image.html",
       "meta": "",
       "scenarios": "Scenario:scenario description\u000aGiven Existing Image in DB with name first and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png\u000aWhen I am sending image with name first to convert to type jpg\u000aThen I am seeing image with type jpg\u000a\u000a\u000a",
-      "passed": true,
+      "passed": false,
       "pending": false,
-      "started": 1517133377868,
-      "duration": 299
+      "started": 1518017640532,
+      "duration": 240
     },
     {
       "description": "",
@@ -40,8 +40,8 @@
       "scenarios": "Scenario:Get first Image\u000aGiven Existing Image in DB with name first and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png\u000aWhen I am getting image with name first\u000aThen I am seeing image with name first\u000a\u000a\u000a",
       "passed": true,
       "pending": false,
-      "started": 1517133378183,
-      "duration": 52
+      "started": 1518017640796,
+      "duration": 36
     }
   ],
   "stepMatches": []

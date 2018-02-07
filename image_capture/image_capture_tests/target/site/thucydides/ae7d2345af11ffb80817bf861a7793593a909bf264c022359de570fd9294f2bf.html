@@ -43,7 +43,7 @@
         <li><a href="index.html" class="current">Overall Test Results</a></li>
         <li><a href="capabilities.html" >Requirements</a></li>
     </ul>
-    <span class="date-and-time">Report generated 28-01-2018 11:56</span>
+    <span class="date-and-time">Report generated 07-02-2018 17:34</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -52,14 +52,14 @@
     <div class="titlebar">
         <div class="story-title">
             <table width="1005">
-                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/>
+                <td width="50"><img class="story-outcome-icon" src="images/fail.png" width="25" height="25"/>
                 </td>
                 <td width="%"><span class="test-case-title"><span
-                        class="success-color">scenario description<span
+                        class="failing-color">scenario description<span
                         class="related-issue-title"></span></span></span>
                 </td>
                 <td width="100"><span class="test-case-duration"><span
-                        class="greentext">0.28s</span></span>
+                        class="greentext">0.24s</span></span>
                 </td>
                 </tr>
                 <tr>
@@ -134,22 +134,28 @@
                             </div>
                         </td>
                         <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.25s</span></td>
+                        <td width="100"><span class="top-level-step">0.19s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
                         <td width="60" class="step-icon">
                             <a name="2"/>
                                 <img style="margin-left: 20px; margin-right: 5px;"
-                                     src="images/success.png" class="top-level-icon"/>
+                                     src="images/fail.png" class="top-level-icon"/>
                         </td>
                         <td>
                             <div class="step-description">
-                                <span class="top-level-step">Then I am seeing image with type {jpg}</span>
+                                <span class="top-level-step">Then I am seeing image with type ｟jpg｠</span>
                             </div>
                         </td>
-                        <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0s</span></td>
+                        <td width="100"><span class="top-level-step">FAILURE</span></td>
+                        <td width="100"><span class="top-level-step">0.01s</span></td>
                     </tr>
+                        <tr class="test-FAILURE">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="4">
+                                <span class="error-message" title="Expected typejpg but got jpeg expected:&lt;jp[]g&gt; but was:&lt;jp[e]g&gt;"><pre>Expected typejpg but got jpeg expected:&lt;jp[]g&gt; but was:&lt;jp[e]g&gt;</pre></span>
+                            </td>
+                        </tr>
             </table>
         </div>
     </div>

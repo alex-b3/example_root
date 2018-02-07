@@ -1,16 +1,19 @@
-<acceptance-test-run title="scenario description" name="scenario description" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="283" timestamp="2018-01-28T11:56:17.884+02:00">
+<acceptance-test-run title="scenario description" name="scenario description" steps="3" successful="2" failures="1" skipped="0" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="235" timestamp="2018-02-07T17:34:00.534+02:00">
   <user-story id="convert_created_image" name="Convert created image" path="imagecapture/stories/convert_created_image.story"/>
   <tags>
     <tag name="Convert created image" type="story"/>
     <tag name="Stories/Convert created image" type="story"/>
   </tags>
-  <test-step result="SUCCESS" duration="21">
+  <test-step result="SUCCESS" duration="17">
     <description>Given Existing Image in DB with name {first} and source url {https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png}</description>
   </test-step>
-  <test-step result="SUCCESS" duration="246">
+  <test-step result="SUCCESS" duration="193">
     <description>When I am sending image with name {first} to convert to type {jpg}</description>
   </test-step>
-  <test-step result="SUCCESS" duration="0">
-    <description>Then I am seeing image with type {jpg}</description>
+  <test-step result="FAILURE" duration="8">
+    <description>Then I am seeing image with type ｟jpg｠</description>
+    <error>Expected typejpg but got jpeg expected:&lt;jp[]g&gt; but was:&lt;jp[e]g&gt;</error>
+    <exception>org.junit.ComparisonFailure:Expected typejpg but got jpeg expected:&lt;jp[]g&gt; but was:&lt;jp[e]g&gt;&#xd;
+[com.imagecapture.steps.GetImageSteps.checkingTypeOfTheImage(GetImageSteps.java:69)]</exception>
   </test-step>
 </acceptance-test-run>

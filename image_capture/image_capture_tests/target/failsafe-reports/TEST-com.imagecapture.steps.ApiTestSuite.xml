@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.imagecapture.steps.ApiTestSuite" time="1.195" tests="17" errors="0" skipped="0" failures="0">
+<testsuite name="com.imagecapture.steps.ApiTestSuite" time="0.961" tests="15" errors="0" skipped="0" failures="1">
   <properties>
     <property name="idea.version" value="2017.1.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -18,7 +18,7 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\alex.bichovsky\IdeaProjects\example_root\image_capture"/>
-    <property name="PID" value="22500"/>
+    <property name="PID" value="16100"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\endorsed"/>
@@ -43,7 +43,7 @@
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="catalina.home" value="C:\Users\alex.bichovsky\AppData\Local\Temp\tomcat.681767849859227534.8080"/>
+    <property name="catalina.home" value="C:\Users\alex.bichovsky\AppData\Local\Temp\tomcat.2789756125851431352.8080"/>
     <property name="user.name" value="alex.bichovsky"/>
     <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.2\lib\idea_rt.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
@@ -60,7 +60,7 @@
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.awt.headless" value="true"/>
     <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.1.2\plugins\maven\lib\maven3"/>
-    <property name="catalina.base" value="C:\Users\alex.bichovsky\AppData\Local\Temp\tomcat.681767849859227534.8080"/>
+    <property name="catalina.base" value="C:\Users\alex.bichovsky\AppData\Local\Temp\tomcat.2789756125851431352.8080"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -68,21 +68,26 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="BeforeStories" classname="java.lang.Object" time="0.013"/>
-  <testcase name="Given Existing Image in DB with name second and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png" classname="com.imagecapture.steps.GetImageSteps" time="0.696"/>
-  <testcase name="When I am getting image with name second" classname="com.imagecapture.steps.GetImageSteps" time="0.023"/>
-  <testcase name="Then I am seeing image with name second" classname="com.imagecapture.steps.GetImageSteps" time="0.005"/>
-  <testcase name="Scenario: Get second Image" classname="Scenario: Get second Image" time="0.016"/>
-  <testcase name="get_second_image.story" classname="get_second_image.story" time="0.044"/>
-  <testcase name="Given Existing Image in DB with name first and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png" classname="com.imagecapture.steps.GetImageSteps" time="0.021"/>
-  <testcase name="When I am sending image with name first to convert to type jpg" classname="com.imagecapture.steps.GetImageSteps" time="0.246"/>
-  <testcase name="Then I am seeing image with type jpg" classname="com.imagecapture.steps.GetImageSteps" time="0"/>
-  <testcase name="Scenario: scenario description" classname="Scenario: scenario description" time="0.016"/>
-  <testcase name="convert_created_image.story" classname="convert_created_image.story" time="0.016"/>
-  <testcase name="Given Existing Image in DB with name first and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png​" classname="com.imagecapture.steps.GetImageSteps" time="0.016"/>
-  <testcase name="When I am getting image with name first" classname="com.imagecapture.steps.GetImageSteps" time="0"/>
-  <testcase name="Then I am seeing image with name first" classname="com.imagecapture.steps.GetImageSteps" time="0.016"/>
-  <testcase name="Scenario: Get first Image" classname="Scenario: Get first Image" time="0.021"/>
-  <testcase name="get_image.story" classname="get_image.story" time="0.03"/>
-  <testcase name="AfterStories" classname="java.lang.Object" time="0.016"/>
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.017"/>
+  <testcase name="Given Existing Image in DB with name second and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png" classname="com.imagecapture.steps.GetImageSteps" time="0.621"/>
+  <testcase name="When I am getting image with name second" classname="com.imagecapture.steps.GetImageSteps" time="0.016"/>
+  <testcase name="Then I am seeing image with name second" classname="com.imagecapture.steps.GetImageSteps" time="0.004"/>
+  <testcase name="Scenario: Get second Image" classname="Scenario: Get second Image" time="0.01"/>
+  <testcase name="get_second_image.story" classname="get_second_image.story" time="0.033"/>
+  <testcase name="Given Existing Image in DB with name first and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png" classname="com.imagecapture.steps.GetImageSteps" time="0.016"/>
+  <testcase name="When I am sending image with name first to convert to type jpg" classname="com.imagecapture.steps.GetImageSteps" time="0.193"/>
+  <testcase name="Then I am seeing image with type jpg" classname="com.imagecapture.steps.GetImageSteps" time="0.007">
+    <failure message="Expected typejpg but got jpeg expected:&lt;jp[]g&gt; but was:&lt;jp[e]g&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: Expected typejpg but got jpeg expected:<jp[]g> but was:<jp[e]g>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at com.imagecapture.steps.GetImageSteps.checkingTypeOfTheImage(GetImageSteps.java:69)
+]]></failure>
+    <system-out><![CDATA[When I am sending image with name first to convert to type jpg
+]]></system-out>
+  </testcase>
+  <testcase name="Given Existing Image in DB with name first and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png​" classname="com.imagecapture.steps.GetImageSteps" time="0.015"/>
+  <testcase name="When I am getting image with name first" classname="com.imagecapture.steps.GetImageSteps" time="0.006"/>
+  <testcase name="Then I am seeing image with name first" classname="com.imagecapture.steps.GetImageSteps" time="0.001"/>
+  <testcase name="Scenario: Get first Image" classname="Scenario: Get first Image" time="0.005"/>
+  <testcase name="get_image.story" classname="get_image.story" time="0.011"/>
+  <testcase name="AfterStories" classname="java.lang.Object" time="0.006"/>
 </testsuite>
