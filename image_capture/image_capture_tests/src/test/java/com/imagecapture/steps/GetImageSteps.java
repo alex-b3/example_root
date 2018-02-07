@@ -66,7 +66,7 @@ public class GetImageSteps {
 
     @Then("I am seeing image with type $type")
     public void checkingTypeOfTheImage(@Named("type") String type){
-        assertEquals("Expected type" + type + " but got "+ image.getUrl().substring(image.getUrl().lastIndexOf(".") + 1).trim(),
+        assertEquals("Expected type " + type + " but got "+ image.getUrl().substring(image.getUrl().lastIndexOf(".") + 1).trim(),
                 type, image.getUrl().substring(image.getUrl().lastIndexOf(".") + 1).trim());
     }
 }

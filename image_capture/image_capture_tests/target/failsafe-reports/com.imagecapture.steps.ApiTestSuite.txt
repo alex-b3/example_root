@@ -2,6 +2,7 @@
 Test set: com.imagecapture.steps.ApiTestSuite
 -------------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 Tests run: 15, Failures: 0, Errors: 1, Skipped: 1, Time elapsed: 6.76 sec <<< FAILURE! - in com.imagecapture.steps.ApiTestSuite
 When I am sending image with name first to convert to type jpg(com.imagecapture.steps.GetImageSteps)  Time elapsed: 1.012 sec  <<< ERROR!
 org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8081/convert-image": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
@@ -34,4 +35,12 @@ org.springframework.web.client.ResourceAccessException: I/O error on POST reques
 
 =======
 Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.465 sec - in com.imagecapture.steps.ApiTestSuite
+>>>>>>> dev
+=======
+Tests run: 15, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.971 sec <<< FAILURE! - in com.imagecapture.steps.ApiTestSuite
+Then I am seeing image with type jpg(com.imagecapture.steps.GetImageSteps)  Time elapsed: 0.007 sec  <<< FAILURE!
+org.junit.ComparisonFailure: Expected typejpg but got jpeg expected:<jp[]g> but was:<jp[e]g>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at com.imagecapture.steps.GetImageSteps.checkingTypeOfTheImage(GetImageSteps.java:69)
+
 >>>>>>> dev

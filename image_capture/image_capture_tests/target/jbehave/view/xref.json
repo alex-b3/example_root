@@ -1,8 +1,12 @@
 {"xref": {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "whenMade": 1506324470103,
 =======
   "whenMade": 1517133382400,
+>>>>>>> dev
+=======
+  "whenMade": 1518017644681,
 >>>>>>> dev
   "createdBy": "JBehave",
   "metaFilter": "-ignore",
@@ -19,11 +23,16 @@
       "passed": true,
       "pending": false,
 <<<<<<< HEAD
+<<<<<<< HEAD
       "started": 1506324464307,
       "duration": 760
 =======
       "started": 1517133376994,
       "duration": 858
+>>>>>>> dev
+=======
+      "started": 1518017639750,
+      "duration": 768
 >>>>>>> dev
     },
     {
@@ -35,6 +44,7 @@
       "meta": "",
       "scenarios": "Scenario:scenario description\u000aGiven Existing Image in DB with name first and source url https://vignette2.wikia.nocookie.net/southpark/images/c/cd/Naked_Cartman_o.o.png\u000aWhen I am sending image with name first to convert to type jpg\u000aThen I am seeing image with type jpg\u000a\u000a\u000a",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "passed": false,
       "pending": false,
       "started": 1506324465086,
@@ -44,6 +54,12 @@
       "pending": false,
       "started": 1517133377868,
       "duration": 299
+>>>>>>> dev
+=======
+      "passed": false,
+      "pending": false,
+      "started": 1518017640532,
+      "duration": 240
 >>>>>>> dev
     },
     {
@@ -57,11 +73,16 @@
       "passed": true,
       "pending": false,
 <<<<<<< HEAD
+<<<<<<< HEAD
       "started": 1506324466162,
       "duration": 27
 =======
       "started": 1517133378183,
       "duration": 52
+>>>>>>> dev
+=======
+      "started": 1518017640796,
+      "duration": 36
 >>>>>>> dev
     }
   ],
