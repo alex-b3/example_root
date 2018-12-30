@@ -2,6 +2,7 @@ package com.imageconverter.steps;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.imageconverter.models.ImageModel;
+import com.imageconverter.models.ImageType;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
@@ -28,7 +29,7 @@ public class ImageConverterSteps {
 
     @When("I am converting image to type $type")
     public void convertingImage(@Named("type")String type){
-        image.setImageType(type.toUpperCase());
+        image.setImageType(ImageType.valueOf(type.toUpperCase()));
     }
 
     @Then("I am seeing image with type $type")

@@ -23,7 +23,7 @@
             <version>1.1.1</version>
         </dependency>
         <dependency>
-            <groupId>poc_root</groupId>
+            <groupId>example_root</groupId>
             <artifactId>image_capture_client</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
